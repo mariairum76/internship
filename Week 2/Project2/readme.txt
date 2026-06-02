@@ -1,4 +1,4 @@
-# 🔐 Auth RBAC API
+# Auth RBAC API
 
 A production-ready backend authentication and authorization system built with Node.js, Express, and PostgreSQL. This project demonstrates secure user authentication using JWT, refresh token rotation, role-based access control (RBAC), request validation with Zod, and API documentation using Swagger.
 
@@ -6,7 +6,7 @@ The goal of this project is to implement modern backend security practices while
 
 ---
 
-## 🚀 Project Highlights
+##Project Highlights
 
 This project includes:
 
@@ -22,7 +22,7 @@ This project includes:
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 | Technology | Purpose |
 |------------|----------|
@@ -39,7 +39,7 @@ This project includes:
 
 ---
 
-## 🔐 Authentication Flow
+## Authentication Flow
 
 The authentication system follows a token-based approach.
 
@@ -56,7 +56,7 @@ This approach helps reduce the impact of token theft and follows modern authenti
 
 ---
 
-## 👮 Role-Based Access Control (RBAC)
+## Role-Based Access Control (RBAC)
 
 The application supports multiple user roles:
 
@@ -76,7 +76,7 @@ Authorization is enforced through middleware, ensuring that only users with the 
 
 ---
 
-## 🗄 Database Design
+## Database Design
 
 The project uses PostgreSQL as the primary database.
 
@@ -101,7 +101,7 @@ to maintain data consistency and integrity.
 
 ---
 
-## 🛡 Security Features
+## Security Features
 
 Several security mechanisms have been implemented:
 
@@ -118,7 +118,7 @@ These features help protect the application against common security vulnerabilit
 
 ---
 
-## 📚 API Documentation
+## API Documentation
 
 Swagger has been integrated to provide interactive API documentation.
 
@@ -132,7 +132,7 @@ The Swagger UI allows developers to explore and test API endpoints directly from
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 src/
@@ -153,7 +153,7 @@ The project follows a layered architecture that separates routing, business logi
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### Clone the Repository
 
@@ -193,7 +193,7 @@ npm run dev
 
 ---
 
-## 📌 Available Endpoints
+## Available Endpoints
 
 ### Authentication
 
@@ -218,7 +218,7 @@ GET /api/v1/admin
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 This project helped demonstrate:
 
